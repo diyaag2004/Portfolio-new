@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Diya Agrawal</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Diya Agrawal</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container1">
+        
+        <img src="https://media.licdn.com/dms/image/D4D03AQFZ0URJSOvkjA/profile-displayphoto-shrink_800_800/0/1709913066396?e=1727308800&v=beta&t=6nVVlQzWxl78UggZ-vYUl-zcrkCgB166C9ZBcQNuY84" alt="Diya Agrawal profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Diya Agrawal</h1>
+        <p class="section__text__p2">Developer ∼ Engineer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('https://drive.google.com/file/d/1BsQc2GMPlc82yq2LkqQRf4PdUf4DYPcz/view?usp=sharing')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/diya-agrawal-nitp'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/diyaag2004'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          
+          <img
+            src="https://media.licdn.com/dms/image/D4D03AQFZ0URJSOvkjA/profile-displayphoto-shrink_800_800/0/1709913066396?e=1727308800&v=beta&t=6nVVlQzWxl78UggZ-vYUl-zcrkCgB166C9ZBcQNuY84"
+            alt="Profile picture"
+            class="about-pic"
+          />
+       
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>Web Developer <br />NIT Patna</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.Tech in CSE<br />NIT Patna</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              I’m Diya Agrawal, a third-year Computer Science Engineering student at NIT Patna. I’m eager about web development, skilled in C, C++, and Python. I enjoy infusing creativity into design and am actively exploring Data Structures & Algorithms.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>React</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Node.js</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Web3</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Backend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>MySQL</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Solidity</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-1.png"
+                alt="WeatheReady Website"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">WeatheReady Website</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2"
+                onclick="window.open('https://github.com/diyaag2004/WeatheReady')"
+              >
+                View Code 1
+              </button>
+              <button
+                class="btn btn-color-1"
+                onclick="window.open('https://github.com/ashishkr375/flask_sirt_jeans')"
+              >
+                View Code 2
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-2.png"
+                alt="Car Inspection Assistant"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Dark Pattern Detection Extension</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2"
+                onclick="window.open('https://github.com/ashishkr375/SecureCartel-Extension1')"
+              >
+                View Code 1
+              </button>
+              <button
+                class="btn btn-color-1"
+                onclick="window.open('https://github.com/ashishkr375/SecureCartel-Extension2')"
+              >
+                View Code 2
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-3.png"
+                alt="NextGen Weather App"
+                class="project-img"
+              />
+            </div>
+            <br>
+            <br>
+            <h2 class="experience-sub-title project-title">GovChain by Team EtherSquad</h2>
+            <br>
+            <br>
+            <h5>GovChain is a blockchain-powered platform designed to transform governance processes, bringing transparency, efficiency, and trust to government operations.</h5>
+            <br>
+            <br>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2"
+                onclick="window.open('https://github.com/ashishkr375/ByteVerse_EtherSquad-GOVERN')"
+              >
+                View Code
+              </button>
+              <button
+                class="btn btn-color-1"
+                onclick="window.open('https://www.youtube.com/watch?v=F0VLBbD6d68')"
+              >
+                View Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Connect With Me</p>
+      <h1 class="title">Contact</h1>
+      <div class="contact-container">
+        <div class="contact-method">
+          <img
+            src="./assets/github.png"
+            alt="Phone icon"
+            class="icon"
+            onclick="location.href='https://github.com/diyaag2004'"
+          />
+       
+        </div>
+        <div class="contact-method">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon"
+            onclick="location.href='mailto:diyaa.ug22.cs@nitp.ac.in'"
+          />
+          
+        </div>
+        <div class="contact-method">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/diya-agrawal-nitp'"
+          />
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p>&copy; 2024 Diya Agrawal. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
